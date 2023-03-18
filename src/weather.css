@@ -1,0 +1,181 @@
+.searchform{
+    
+    top: 10px;
+    margin: 10vh auto;
+    float: none;
+    color: aqua;
+}
+
+.sicon{
+    color: rgb(255, 255, 255);
+    background-color: rgba(43, 43, 43, 0.562);
+    width: 590px;
+    border-radius: 10px 0 0 10px;
+    border: 0;
+    padding: 10px 0 10px 10px;  
+   
+}
+.sbut:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.349);
+    width: 105px;
+    border-radius: 0 10px 10px 0;
+    border: 0;
+    padding: 10px 0 10px 10px;
+
+}
+
+.sbut{
+    color: rgb(255, 255, 255);
+    background-color: rgba(26, 26, 26, 0.76);
+    width: 105px;
+    border-radius: 0 10px 10px 0;
+    border: 0;
+    padding: 10px 0 10px 10px;
+}
+
+
+.form-group{
+    display:flex;
+    justify-content: center;
+}
+.form-control{
+    width: 50% !important;
+}
+button.btn.btn-primary{
+    margin: 0px 5px;
+}
+
+.weatherBox {
+    max-width: 700px;
+    min-height: 100px;
+    border: 1px solid #575757; 
+
+}
+
+.row2 .img-fluid{
+    margin: 10% 0;
+    opacity: 0.5;
+    width: 40%;
+}
+
+.cardColor{
+    color: rgb(255, 255, 255);
+    background-color: rgba(37, 37, 37, 0.555);
+    padding: 15px 15px 15px 15px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.location{
+    
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    float: left;
+    padding-left: 35px;
+}
+
+.temp{
+    
+    font-size: 5rem;
+    color: rgb(241, 241, 241);
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    float: left;
+    
+}
+
+.weaRep{
+    margin-top: 150px;
+    margin-right: 100px;
+
+}
+.weatherIcon{
+
+ width: 80%;
+ height: 80%;
+ 
+}
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    margin-left: 90px;
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 120px;
+    margin-top: 113px;
+}
+
+.itemalign{
+    margin-top: -9px;
+
+}
+
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    
+}
+
+
+
+
+
+.img-fluid{
+    float: right;
+   padding: 22px;
+    display: flex;
+ 
+} 
+.tempCards{
+    width: 100%;
+    
+}
+
+.sunIcon{
+    width: 40%;
+   size: 10px;
+    z-index: 5;
+
+    
+
+}
+
+.aCenter{
+    margin: 10vh auto;
+    float: none;
+    margin-bottom: 5px;
+}
+
+#search-btn {
+	padding: 10px;
+	
+	background-color: rgb(34, 33, 33, 0.1);
+	border: 1px solid rgb(34, 34, 34, 0.2);
+	box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.25);
+	transition: transform 250ms;
+	border-radius: 5px;
+	color: #CFE7EF;
+	cursor: pointer;
+}
+
+
+
+
+.rotate {
+    animation: animName 80s linear infinite;
+
+  }
+
+  @keyframes animName {
+    0%{
+       transform: rotate(0deg);
+      }
+   100%{
+       transform: rotate(360deg);
+      }
+   }
